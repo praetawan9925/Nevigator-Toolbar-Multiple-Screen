@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2BDCA691EF118FA0078FF77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDCA681EF118FA0078FF77 /* AppDelegate.swift */; };
+		F2BDCA6B1EF118FA0078FF77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDCA6A1EF118FA0078FF77 /* ViewController.swift */; };
+		F2BDCA6E1EF118FA0078FF77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCA6C1EF118FA0078FF77 /* Main.storyboard */; };
+		F2BDCA701EF118FA0078FF77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCA6F1EF118FA0078FF77 /* Assets.xcassets */; };
+		F2BDCA731EF118FA0078FF77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCA711EF118FA0078FF77 /* LaunchScreen.storyboard */; };
+		F2BDCA7D1EF120830078FF77 /* ic_autorenew_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCA7A1EF120830078FF77 /* ic_autorenew_2x.png */; };
+		F2BDCA7E1EF120830078FF77 /* ic_autorenew_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCA7B1EF120830078FF77 /* ic_autorenew_3x.png */; };
+		F2BDCA7F1EF120830078FF77 /* ic_autorenew.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCA7C1EF120830078FF77 /* ic_autorenew.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F2BDCA651EF118FA0078FF77 /* Navigation Toolbar Multiple Screen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Toolbar Multiple Screen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2BDCA681EF118FA0078FF77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2BDCA6A1EF118FA0078FF77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2BDCA6D1EF118FA0078FF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2BDCA6F1EF118FA0078FF77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2BDCA721EF118FA0078FF77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2BDCA741EF118FA0078FF77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2BDCA7A1EF120830078FF77 /* ic_autorenew_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_2x.png; path = ../../../../Desktop/ic_autorenew_2x.png; sourceTree = "<group>"; };
+		F2BDCA7B1EF120830078FF77 /* ic_autorenew_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_3x.png; path = ../../../../Desktop/ic_autorenew_3x.png; sourceTree = "<group>"; };
+		F2BDCA7C1EF120830078FF77 /* ic_autorenew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew.png; path = ../../../../Desktop/ic_autorenew.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2BDCA621EF118FA0078FF77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2BDCA5C1EF118FA0078FF77 = {
+			isa = PBXGroup;
+			children = (
+				F2BDCA671EF118FA0078FF77 /* Navigation Toolbar Multiple Screen */,
+				F2BDCA661EF118FA0078FF77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2BDCA661EF118FA0078FF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2BDCA651EF118FA0078FF77 /* Navigation Toolbar Multiple Screen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2BDCA671EF118FA0078FF77 /* Navigation Toolbar Multiple Screen */ = {
+			isa = PBXGroup;
+			children = (
+				F2BDCA7A1EF120830078FF77 /* ic_autorenew_2x.png */,
+				F2BDCA7B1EF120830078FF77 /* ic_autorenew_3x.png */,
+				F2BDCA7C1EF120830078FF77 /* ic_autorenew.png */,
+				F2BDCA681EF118FA0078FF77 /* AppDelegate.swift */,
+				F2BDCA6A1EF118FA0078FF77 /* ViewController.swift */,
+				F2BDCA6C1EF118FA0078FF77 /* Main.storyboard */,
+				F2BDCA6F1EF118FA0078FF77 /* Assets.xcassets */,
+				F2BDCA711EF118FA0078FF77 /* LaunchScreen.storyboard */,
+				F2BDCA741EF118FA0078FF77 /* Info.plist */,
+			);
+			path = "Navigation Toolbar Multiple Screen";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2BDCA641EF118FA0078FF77 /* Navigation Toolbar Multiple Screen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2BDCA771EF118FA0078FF77 /* Build configuration list for PBXNativeTarget "Navigation Toolbar Multiple Screen" */;
+			buildPhases = (
+				F2BDCA611EF118FA0078FF77 /* Sources */,
+				F2BDCA621EF118FA0078FF77 /* Frameworks */,
+				F2BDCA631EF118FA0078FF77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Navigation Toolbar Multiple Screen";
+			productName = "Navigation Toolbar Multiple Screen";
+			productReference = F2BDCA651EF118FA0078FF77 /* Navigation Toolbar Multiple Screen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2BDCA5D1EF118FA0078FF77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = SNRU;
+				TargetAttributes = {
+					F2BDCA641EF118FA0078FF77 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F2BDCA601EF118FA0078FF77 /* Build configuration list for PBXProject "Navigation Toolbar Multiple Screen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2BDCA5C1EF118FA0078FF77;
+			productRefGroup = F2BDCA661EF118FA0078FF77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2BDCA641EF118FA0078FF77 /* Navigation Toolbar Multiple Screen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2BDCA631EF118FA0078FF77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BDCA7E1EF120830078FF77 /* ic_autorenew_3x.png in Resources */,
+				F2BDCA7D1EF120830078FF77 /* ic_autorenew_2x.png in Resources */,
+				F2BDCA731EF118FA0078FF77 /* LaunchScreen.storyboard in Resources */,
+				F2BDCA701EF118FA0078FF77 /* Assets.xcassets in Resources */,
+				F2BDCA7F1EF120830078FF77 /* ic_autorenew.png in Resources */,
+				F2BDCA6E1EF118FA0078FF77 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2BDCA611EF118FA0078FF77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2BDCA6B1EF118FA0078FF77 /* ViewController.swift in Sources */,
+				F2BDCA691EF118FA0078FF77 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2BDCA6C1EF118FA0078FF77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BDCA6D1EF118FA0078FF77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2BDCA711EF118FA0078FF77 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2BDCA721EF118FA0078FF77 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2BDCA751EF118FA0078FF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2BDCA761EF118FA0078FF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2BDCA781EF118FA0078FF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Navigation Toolbar Multiple Screen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Computer.Praetawan.Navigation-Toolbar-Multiple-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F2BDCA791EF118FA0078FF77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Navigation Toolbar Multiple Screen/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Computer.Praetawan.Navigation-Toolbar-Multiple-Screen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2BDCA601EF118FA0078FF77 /* Build configuration list for PBXProject "Navigation Toolbar Multiple Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BDCA751EF118FA0078FF77 /* Debug */,
+				F2BDCA761EF118FA0078FF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2BDCA771EF118FA0078FF77 /* Build configuration list for PBXNativeTarget "Navigation Toolbar Multiple Screen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2BDCA781EF118FA0078FF77 /* Debug */,
+				F2BDCA791EF118FA0078FF77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2BDCA5D1EF118FA0078FF77 /* Project object */;
+}
