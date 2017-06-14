@@ -27,8 +27,16 @@
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
                                     <navigationItem title="First Screen" id="zYc-Fn-02k">
-                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="RdU-nO-hqM"/>
-                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="oAU-IV-rVa"/>
+                                        <barButtonItem key="leftBarButtonItem" systemItem="rewind" id="RdU-nO-hqM">
+                                            <connections>
+                                                <action selector="decreaseNumber:" destination="BYZ-38-t0r" id="XYG-wm-Rpg"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="fastForward" id="oAU-IV-rVa">
+                                            <connections>
+                                                <action selector="IncreaseNumber:" destination="BYZ-38-t0r" id="5AU-g0-XHs"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -37,9 +45,17 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <barButtonItem image="ic_autorenew.png" id="xYR-Yv-7nZ"/>
+                                    <barButtonItem image="ic_autorenew.png" id="xYR-Yv-7nZ">
+                                        <connections>
+                                            <action selector="resetNumber:" destination="BYZ-38-t0r" id="58w-NV-ICa"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="lRD-GF-66u"/>
-                                    <barButtonItem systemItem="reply" id="bjb-7t-0bP"/>
+                                    <barButtonItem systemItem="reply" id="bjb-7t-0bP">
+                                        <connections>
+                                            <segue destination="Xcj-oM-hoB" kind="show" id="lRu-Ah-qVb"/>
+                                        </connections>
+                                    </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="y3v-UH-DXI"/>
                                     <barButtonItem systemItem="trash" id="oNN-SS-tAp"/>
                                 </items>
@@ -54,10 +70,31 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="numberLabel" destination="ikh-BP-L1G" id="7d0-bQ-tZn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="140" y="135.38230884557723"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="ACc-tp-KNT">
+            <objects>
+                <viewController id="Xcj-oM-hoB" customClass="SecondViewController" customModule="Navigation_Toolbar_Multiple_Screen" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BNZ-Vp-y70"/>
+                        <viewControllerLayoutGuide type="bottom" id="aLZ-iy-arl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SKb-JE-PLB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a4c-lp-hUu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="906" y="135"/>
         </scene>
     </scenes>
     <resources>

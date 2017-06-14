@@ -15,6 +15,7 @@
 		F2BDCA7D1EF120830078FF77 /* ic_autorenew_2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCA7A1EF120830078FF77 /* ic_autorenew_2x.png */; };
 		F2BDCA7E1EF120830078FF77 /* ic_autorenew_3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCA7B1EF120830078FF77 /* ic_autorenew_3x.png */; };
 		F2BDCA7F1EF120830078FF77 /* ic_autorenew.png in Resources */ = {isa = PBXBuildFile; fileRef = F2BDCA7C1EF120830078FF77 /* ic_autorenew.png */; };
+		F2BDCA811EF1390A0078FF77 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BDCA801EF1390A0078FF77 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		F2BDCA7A1EF120830078FF77 /* ic_autorenew_2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_2x.png; path = ../../../../Desktop/ic_autorenew_2x.png; sourceTree = "<group>"; };
 		F2BDCA7B1EF120830078FF77 /* ic_autorenew_3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew_3x.png; path = ../../../../Desktop/ic_autorenew_3x.png; sourceTree = "<group>"; };
 		F2BDCA7C1EF120830078FF77 /* ic_autorenew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_autorenew.png; path = ../../../../Desktop/ic_autorenew.png; sourceTree = "<group>"; };
+		F2BDCA801EF1390A0078FF77 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				F2BDCA681EF118FA0078FF77 /* AppDelegate.swift */,
 				F2BDCA6A1EF118FA0078FF77 /* ViewController.swift */,
 				F2BDCA6C1EF118FA0078FF77 /* Main.storyboard */,
+				F2BDCA801EF1390A0078FF77 /* SecondViewController.swift */,
 				F2BDCA6F1EF118FA0078FF77 /* Assets.xcassets */,
 				F2BDCA711EF118FA0078FF77 /* LaunchScreen.storyboard */,
 				F2BDCA741EF118FA0078FF77 /* Info.plist */,
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BDCA811EF1390A0078FF77 /* SecondViewController.swift in Sources */,
 				F2BDCA6B1EF118FA0078FF77 /* ViewController.swift in Sources */,
 				F2BDCA691EF118FA0078FF77 /* AppDelegate.swift in Sources */,
 			);
